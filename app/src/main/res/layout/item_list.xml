@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
-    <!--Definição de botões de interação-->
+    <!--Criação de itens para uma lista personalizada-->
 
-    <Button
-        android:id="@+id/buttonConsumir"
+    <TextView
+        android:id="@+id/textViewNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Consumir" />
+        android:padding="5dp"
+        android:text="Nome: "/>
 
-
-    <Button
-        android:id="@+id/buttonGerar"
+    <TextView
+        android:id="@+id/textViewTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gerar" />
+        android:padding="5dp"
+        android:text="Profissão: "/>
 
-    <!--Lista personalizada-->
-    <ListView
-        android:id="@+id/listViewUsuarios"
+    <TextView
+        android:id="@+id/textViewLocacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:dividerHeight="1dp" />/
+        android:padding="5dp"
+        android:text="Locação: "/>
 
 </LinearLayout>
