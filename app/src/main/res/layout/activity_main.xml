@@ -6,6 +6,8 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!--Definição de botões de interação-->
+
     <Button
         android:id="@+id/buttonConsumir"
         android:layout_width="wrap_content"
